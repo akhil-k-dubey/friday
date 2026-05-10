@@ -1,0 +1,21 @@
+# FRIDAY — Advanced AI Voice Assistant
+# All packages are free and open-source. No API keys required.
+
+# Core voice I/O
+SpeechRecognition>=3.10.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Text-to-Speech (Microsoft Edge TTS — free, no API key)
+edge-tts>=6.1.0
+
+# Optional: local whisper STT (uses GPU if available)
+# faster-whisper>=0.9.0
+
+# Skills dependencies
+ddgs>=9.0
+psutil>=5.9.0
+pyperclip>=1.8.0
+
+# Optional: screenshots
+# Pillow>=10.0.0
